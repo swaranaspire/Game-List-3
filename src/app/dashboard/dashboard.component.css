@@ -1,0 +1,23 @@
+.parent {
+    height: 100vh;
+    width: 100vw;
+    background-color:aqua;
+    color: red;
+    display: flex;
+        
+}
+
+.child1{
+    height: 100vh;
+    width: 20vw;
+    background-color: black;
+    color: white;
+}
+.child2{
+    height: 100vh;
+    width: 80vw;
+    color: black;
+    
+   
+}
+
