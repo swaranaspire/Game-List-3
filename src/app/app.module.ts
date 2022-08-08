@@ -8,6 +8,8 @@ import { TeamsComponent } from './teams/teams.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { AllusersComponent } from './user/allusers/allusers.component';
 
 
 @NgModule({
@@ -16,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     GameactivityComponent,
     TeamsComponent,
     DashboardComponent,
+    AllusersComponent
    
   ],
   imports: [
@@ -23,7 +26,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,61 @@
+{
+    "userlist":[
+        {
+            "firstname":"swaran",
+            "lastname":"akkula",
+            "email":"swaran.akkula@gmail.com",
+            "graduation":"B.SC",
+            "address":"Warangal"
+         },
+         {
+            "firstname":"arryan",
+            "lastname":"chelumalla",
+            "email":"arryan.chelumalla@gmail.com",
+            "graduation":"Btech",
+            "address":"Warangal"
+         },
+         {
+            "firstname":"Ranjith",
+            "lastname":"Nimmala",
+            "email":"ranjith.nimmala@gmail.com",
+            "graduation":"Btech",
+            "address":"Warangal"
+         },
+         {
+            "firstname":"Praveen",
+            "lastname":"Yellu",
+            "email":"praveen.yellu@gmail.com",
+            "graduation":"Btech",
+            "address":"Hyderabad"
+         }
+],
+"productlist":[
+    {
+        "name":"cars",
+        "brand":"benz",
+        "model":"q-55",
+        "color":"black",
+        "price":"$400000"
+    },
+    {
+        "name":"cars",
+        "brand":"benz",
+        "model":"q-55",
+        "color":"black",
+        "price":"$400000"
+    },
+    {
+        "name":"cars",
+        "brand":"benz",
+        "model":"q-55",
+        "color":"black",
+        "price":"$400000"
+    },{
+        "name":"cars",
+        "brand":"benz",
+        "model":"q-55",
+        "color":"black",
+        "price":"$400000"
+    }
+]
+}
