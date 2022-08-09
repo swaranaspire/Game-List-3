@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { AllusersComponent } from './user/allusers/allusers.component';
+import { ProductlistComponent } from './products/productlist/productlist.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AllusersComponent } from './user/allusers/allusers.component';
     GameactivityComponent,
     TeamsComponent,
     DashboardComponent,
-    AllusersComponent
+    AllusersComponent,
+    ProductlistComponent
    
   ],
   imports: [
