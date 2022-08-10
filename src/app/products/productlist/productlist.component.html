@@ -1,24 +1,5 @@
 <div class="container" >
-    <table class="table" >
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Brand</th>
-            <th>Model</th>
-            <th>Color</th>
-            <th>Price</th>
-          </tr>
-        </thead>
-        <tbody >
-            
-          <tr   *ngFor="let product of productdata">
-            <td>{{product.name}}</td>
-            <td>{{product.brand}}</td>
-            <td>{{product.model}}</td>
-            <td>{{product.color}}</td>
-            <td>{{product.price}}</td>
-          </tr>
-         
-        </tbody>
-      </table>
+
+  <app-generic-list [items]="productdata"></app-generic-list>
+    
 </div>

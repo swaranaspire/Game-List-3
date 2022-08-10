@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { AllusersComponent } from './user/allusers/allusers.component';
 import { ProductlistComponent } from './products/productlist/productlist.component';
+import { GenericListComponent } from './generic-list/generic-list.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProductlistComponent } from './products/productlist/productlist.compone
     TeamsComponent,
     DashboardComponent,
     AllusersComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    GenericListComponent
    
   ],
   imports: [

@@ -1,24 +1,5 @@
 <div class="container" >
-    <table class="table" >
-        <thead>
-          <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
-            <th>Graduation</th>
-            <th>Address</th>
-          </tr>
-        </thead>
-        <tbody >
-            
-          <tr   *ngFor="let user of userdata">
-            <td>{{user.firstname}}</td>
-            <td>{{user.lastname}}</td>
-            <td>{{user.email}}</td>
-            <td>{{user.graduation}}</td>
-            <td>{{user.address}}</td>
-          </tr>
-         
-        </tbody>
-      </table>
+
+  <app-generic-list [items]="userdata"></app-generic-list>
+
 </div>
